@@ -1,0 +1,2 @@
+# status | what | measured effect or expected payoff
+idea | Example: cache dependencies between agent runs | Faster starts

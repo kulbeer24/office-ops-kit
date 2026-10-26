@@ -1,0 +1,1 @@
+# Planned estimates per issue, in agent working minutes (dev + QA + fix). issue | size | minutes | note. Sizes: S 30, M 70, L 150, XL 300.

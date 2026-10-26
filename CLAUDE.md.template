@@ -1,0 +1,22 @@
+# CLAUDE.md for __PROJECT__
+
+Agents read this file first. Edit it for your project, then commit it.
+
+## What this project is
+(One paragraph: what it does and who it is for.)
+
+## How to test
+Test command: (put the exact command here, for example `npm test`, `pytest`, or `xcodebuild test ...`). Also set `test_cmd=` in dispatch/ops.conf to the same command.
+
+## Rules for agents
+- Strict test-first: write failing tests, commit them alone, then implement.
+- One branch per issue, named `<issue-number>-short-slug`. Conventional commits that mention the issue number.
+- Agents never merge, never close issues, never force-push. The owner merges.
+- Stage explicit paths only (`git add <path>`), never `git add -A`.
+
+## Owner-only files (agents must not change these; the architect will not mark such PRs ready)
+- CLAUDE.md
+- .github/
+
+## Safety-relevant areas (get an adversarial QA round before merge)
+(List the parts of the project where a bug harms users: auth, payments, personal data, ...)

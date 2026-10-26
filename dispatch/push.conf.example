@@ -1,0 +1,11 @@
+# Phone push alerts. Copy this file to push.conf and set channel. Nothing is sent while channel=none.
+# channel: none | ntfy | imessage
+#   ntfy     = free app "ntfy" on your iPhone; subscribe to the topic below. Messages pass through ntfy.sh, so keep the topic secret and never put health data in alerts (the alerts here never do).
+#   imessage = sends an iMessage from this Mac to imessage_to (needs Messages signed in; macOS asks once to let Terminal control Messages).
+channel=none
+ntfy_topic=ccai-REPLACE_WITH_RANDOM
+imessage_to=you@example.com
+# only alerts whose file name matches this regex are pushed (the Mac notification still shows them all)
+filter=attn|limit|dead|decision|safety|digest
+# morning summary at this local hour (0-23); leave empty to turn off
+digest_hour=8

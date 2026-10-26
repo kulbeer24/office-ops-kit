@@ -1,0 +1,3 @@
+# epic | keywords (matched against issue titles, first epic that matches wins) | target
+Core features | feature,core | First release
+Quality and reliability | bug,fix,test,crash | Ongoing

@@ -1,0 +1,2 @@
+# Marketing lane. Same format and rules as release.txt: stage | target date | gates (separate with ;) | what it means | buffer days.
+Story ready | 2026-12-01 | Name chosen ~2; Core story approved ~2 | Nothing is posted until the story is agreed. | 1

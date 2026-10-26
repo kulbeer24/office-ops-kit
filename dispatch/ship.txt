@@ -1,0 +1,5 @@
+# manual steps for each release. Put [x] at the end when done; clear them after each release.
+Test suite passes
+Version bumped
+Release built and uploaded
+Release notes written

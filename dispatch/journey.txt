@@ -1,0 +1,4 @@
+# stage | step | what the user does | screen | keywords (matched against issue titles)
+1. Get started | Sign up | Creates an account | Sign-up | sign up,signup,account
+1. Get started | First use | Sees the main screen | Home | onboarding,first run
+2. Every day | Main task | Does the thing the product is for | Main | core
